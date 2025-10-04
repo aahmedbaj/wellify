@@ -1,0 +1,184 @@
+/* Ahmed Bajunaid 2236627 */
+
+
+/* ------------ Main/shared styles -----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAF8F0;
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #F4F1E8;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 60px;
+  vertical-align: auto;
+}
+
+.nav-links {
+  text-decoration: none;
+  /* remove underline */
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-left: 100px;
+  position: relative;
+
+
+}
+
+.nav-links:hover {
+  color: grey;
+  /* hover effect */
+}
+
+/* for tables */
+th,
+td {
+  background-color: #ffffffb4;
+  
+}
+
+
+.cabin {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* ---------------------index.html styles----------------------*/
+.index {
+  background-image: url('../images/LandingWallpaper.png');
+  background-repeat: no-repeat;
+  background-position: right 100px;
+  background-size: 40%;
+  background-attachment: fixed;
+}
+
+/*--------------------- services.html styles ------------------*/
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+ 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------- contact.html styles ----------------- */
+.contact {
+  background-image: url('../images/contact_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contactbox {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  padding: 20px 30px;
+  background-color: #FAF8F0;
+  border-radius: 30px;
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+
+/* ------------------------ BMI.html styles --------------------------*/
+.bmi {
+  background-image: url('../images/BMI_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-position: center 10rem;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bmi-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 5%;
+  margin: 2%;
+}
+
+.bmi_text {
+  flex: 2;
+  /* This makes the text column take up 2/3 of the space */
+}
+
+.bmi_image {
+  flex: 1;
+  /* This makes the image column take up 1/3 of the space */
+  text-align: center;
+}
+
+.bmi_image img {
+  max-width: 50%;
+  height: auto;
+}
+
+
+
+/*----------------  calorie.html styles    --------------------- */
+
+.calorie {
+  background-image: url('../images/calorie_wallpaper.png');
+  background-repeat: no-repeat;
+  background-position: 2rem .5rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+
+
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  /* margin-top: 1.5rem; */
+  padding: 1%;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(237, 223, 181, 0.746);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  flex: 1;
+  /* Each card takes up equal space */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/*------------------------  sleep.html styles    --------------------- */
+
+.sleep {
+  background-image: url('../images/sleep_wallpaper.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: transparent;
+
+
+}

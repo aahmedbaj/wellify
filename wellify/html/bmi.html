@@ -1,0 +1,105 @@
+<!--  Ahmed Bajunaid 2236627 abajunaid0014@stu.kau.edu.sa -->
+<!DOCTYPE html>
+<html>
+<!----------------------------Header block--------------------------->
+
+<head>
+    <!--Title of the Landing page-->
+    <title>BMI Reader</title>
+    <meta name="author" content="Ahmed Bajunaid">
+    <!--linking to CSS file-->
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--linking the font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<!----------------------------Body block--------------------------->
+
+<body class="bmi">
+
+    <!--- navigation bar ---->
+    <div class="navbar">
+        <a href="index.html" class="logo">
+            <img src="../images/logo.jpg" alt="Wellify Logo">
+        </a>
+        <a href="services.html" class="nav-links">services</a>
+        <a href="contact.html" class="nav-links">contact us</a>
+    </div>
+
+    <!--- service name header ---->
+    <div style="text-align:center; padding:20px; background: linear-gradient(to bottom, #F4F1E8, #bbbbbb);">
+        <p style="font-size: 4rem;"><b>BMI reader</b></p>
+        <p>Learn what BMI is, how to calculate it, and how to interpret your results.</p>
+    </div>
+
+    <!-- Main container ( two sides : text -right , table in left )-->
+    <div class="bmi-container">
+
+        <!-- sub-container: text -->
+        <div class="bmi_text">
+            <h1 style="font-size: 3rem;">BMI Reader</h1>
+            <p style="font-size: 1.2rem; padding-top: 5px;">Learn what BMI is, how to calculate it, and how to interpret
+                your results.</p>
+
+            <h1 style="padding-top: 2rem;">What is BMI?</h1>
+            <p style="font-size: 1.5rem;"><b>BMI stands for Body Mass Index.</b> <br> It is a simple number that uses
+            </p>
+            <ul style="padding-left: 2rem; font-size:1.5rem;">
+                <li>Height</li>
+                <li>Weight</li>
+            </ul>
+            <p style="font-size: 1.5rem;"> to help
+                determine if you are underweight, at a healthy weight, overweight, or obese.</p>
+
+            <h1 style="padding-top: 2rem;"><b>How to Calculate BMI?</h1>
+            <p style="font-size: 1.5rem;">The formula is: <strong>BMI = Weight (kg) ÷ [Height (m)]² </strong> <br><br>
+                Example: A person who weighs 70 kg and is 1.75 m tall has a BMI of:<br>
+                70 ÷ (1.75 x 1.75) = 22.9</p>
+        </div>
+
+
+        <!-- sub-container: table -->
+        <div style="text-align:center;padding-top: 30%;">
+            <h1>How to Read the Result</h1>
+            <h2>Once you calculate your BMI, compare it with the ranges below:</h2>
+
+            <table border="1" cellpadding="10" style="border-collapse: collapse; margin: 10px auto; font-size: 2.5rem;">
+                <tr style="background-color: #ffffff;">
+                    <th>BMI Range</th>
+                    <th>Category</th>
+                </tr>
+                <tr>
+                    <td>Below 18.5</td>
+                    <td>Underweight</td>
+                </tr>
+                <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>Normal weight</td>
+                </tr>
+                <tr>
+                    <td>25 - 29.9</td>
+                    <td>Overweight</td>
+                </tr>
+                <tr>
+                    <td>30 and above</td>
+                    <td>Obese</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
